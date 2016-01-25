@@ -1,8 +1,8 @@
-package com.cgi.verticles;
+package com.stepan.verticles;
 
-import com.cgi.common.ContentType;
-import com.cgi.common.XmlConverter;
-import com.cgi.dto.Receipt;
+import com.stepan.common.ContentType;
+import com.stepan.common.XmlConverter;
+import com.stepan.dto.Receipt;
 import io.vertx.core.AbstractVerticle;
 import io.vertx.core.http.HttpClient;
 import io.vertx.core.http.HttpClientOptions;

@@ -1,4 +1,4 @@
-package com.cgi.common;
+package com.stepan.common;
 
 import javax.xml.bind.JAXBContext;
 import javax.xml.bind.JAXBException;

@@ -1,7 +1,7 @@
-package com.cgi.common;
+package com.stepan.common;
 
-import com.cgi.dto.Receipt;
-import com.cgi.dto.Request;
+import com.stepan.dto.Receipt;
+import com.stepan.dto.Request;
 import io.vertx.core.Handler;
 import io.vertx.core.http.HttpServerRequest;
 import io.vertx.core.json.Json;

@@ -1,7 +1,7 @@
-package com.cgi.verticles;
+package com.stepan.verticles;
 
-import com.cgi.common.CommandHandler;
-import com.cgi.dto.Request;
+import com.stepan.common.CommandHandler;
+import com.stepan.dto.Request;
 import io.vertx.core.AbstractVerticle;
 import io.vertx.core.http.HttpServer;
 import io.vertx.core.http.HttpServerOptions;

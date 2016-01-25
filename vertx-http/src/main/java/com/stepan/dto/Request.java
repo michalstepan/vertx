@@ -1,4 +1,4 @@
-package com.cgi.dto;
+package com.stepan.dto;
 
 import io.vertx.core.MultiMap;
 

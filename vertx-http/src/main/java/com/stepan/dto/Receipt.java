@@ -1,6 +1,6 @@
-package com.cgi.dto;
+package com.stepan.dto;
 
-import com.cgi.common.ContentType;
+import com.stepan.common.ContentType;
 
 import javax.xml.bind.annotation.XmlElement;
 import javax.xml.bind.annotation.XmlRootElement;

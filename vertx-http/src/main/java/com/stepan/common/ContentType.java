@@ -1,4 +1,4 @@
-package com.cgi.common;
+package com.stepan.common;
 
 /**
  * Created by stepanm on 18.1.2016.
