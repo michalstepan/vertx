@@ -11,7 +11,7 @@ public class WebsocketClientVerticle extends AbstractVerticle {
     public void start() throws Exception {
 
         HttpClient client = vertx.createHttpClient();
-        client.post(8080, "localhost", "/", event -> {
+        client.websocket(8080, "localhost", "/", event -> {
            System.out.println("Response achieved!");
         });
     }
