@@ -2,4 +2,5 @@ rootProject.name = 'vertx'
 include 'vertx-http'
 include 'vertx-jwt'
 include 'vertx-rest'
+include 'vertx-websocket'
 
