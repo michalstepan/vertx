@@ -1,0 +1,35 @@
+
+
+apply plugin: 'java'
+apply plugin: 'idea'
+
+version = '1.0'
+group 'vertx'
+sourceCompatibility = 1.8
+targetCompatibility = 1.8
+
+//task fatJar(type: Jar){
+//    manifest {
+//        Attributes 'Implementation-Title': 'vertx-http',
+//                'Implementation-Version': version,
+//                'Main-Class': 'com.cgi.HttpApplication'
+//    }
+//    baseName = project.name + '-all'
+//    from {
+//        configurations.compile.collect {
+//            it.isDirectory() ? it : zipTree(it)
+//        }
+//    }
+//    with Jar
+//}
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+    testCompile group: 'junit', name: 'junit', version: '4.11'
+    compile('io.vertx:vertx-core:3.2.0')
+    compile('io.jsonwebtoken:jjwt:0.6.0')
+    compile('io.vertx:vertx-auth-jwt:3.2.0')
+}
